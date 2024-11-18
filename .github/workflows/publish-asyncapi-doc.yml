@@ -19,7 +19,7 @@ jobs:
           template: '@asyncapi/html-template@3.1.0'  #In case of template from npm, because of @ it must be in quotes
           filepath: dbus-websocket-asyncapi.json
           output: generated-html
-          parameters: '--use-new-generator'
+          parameters: '--use-new-generator --debug'
           cli_version: '2.10.0'
 
       #Using another action that takes generated HTML and pushes it to GH Pages
