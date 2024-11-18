@@ -1,0 +1,13 @@
+[Unit]
+AssertPathExists=/usr/bin/dbus-ws-proxy
+
+[Service]
+WorkingDirectory=~
+ExecStart=/usr/bin/dbus-ws-proxy
+Restart=always
+PrivateTmp=true
+NoNewPrivileges=true
+
+[Install]
+Alias=dbus-ws-proxy
+WantedBy=default.target
