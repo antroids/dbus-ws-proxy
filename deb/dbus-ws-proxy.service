@@ -10,4 +10,4 @@ NoNewPrivileges=true
 
 [Install]
 Alias=dbus-ws-proxy
-WantedBy=default.target
+WantedBy=multi-user.target
