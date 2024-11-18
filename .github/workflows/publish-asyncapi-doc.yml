@@ -20,6 +20,7 @@ jobs:
           filepath: dbus-websocket-asyncapi.json
           output: generated-html
           parameters: '--use-new-generator'
+          cli_version: '2.10.0'
 
       #Using another action that takes generated HTML and pushes it to GH Pages
       - name: Deploy GH page
