@@ -2,6 +2,10 @@
 
 DBus - WebSocket proxy can be used to access the DBus IPC protocol from applications that don't have its integrations.
 
+## API Documentation
+
+https://antroids.github.io/dbus-ws-proxy/index.html
+
 ## License
 
 Except where noted (below and/or in individual files), all code in this repository is dual-licensed under either:
