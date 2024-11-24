@@ -30,6 +30,6 @@ section = "admin"
 priority = "optional"
 assets = [
     ["target/release/dbus-ws-proxy", "usr/bin/dbus-ws-proxy", "755"],
-    ["deb/dbus-ws-proxy.service", "/lib/systemd/system/dbus-ws-proxy.service", "644"],
+    ["debian/dbus-ws-proxy.user.service", "/usr/lib/systemd/user/dbus-ws-proxy.service", "644"],
 ]
-maintainer-scripts = "deb/scripts"
+maintainer-scripts = "debian/scripts/"
