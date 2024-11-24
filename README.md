@@ -1,10 +1,23 @@
+[![Build Release](https://github.com/antroids/dbus-ws-proxy/actions/workflows/build-deb-and-deploy.yml/badge.svg)](https://github.com/antroids/dbus-ws-proxy/actions/workflows/build-deb-and-deploy.yml)
+[![Build AsyncAPI](https://github.com/antroids/dbus-ws-proxy/actions/workflows/publish-asyncapi-doc.yml/badge.svg)](https://github.com/antroids/dbus-ws-proxy/actions/workflows/publish-asyncapi-doc.yml)
+
 # DBus - WebSocket proxy
 
 DBus - WebSocket proxy can be used to access the DBus IPC protocol from applications that don't have its integrations.
 
 ## API Documentation
 
-https://antroids.github.io/dbus-ws-proxy/index.html
+AsyncAPI documentation: https://antroids.github.io/dbus-ws-proxy/index.html
+
+## Installing
+
+### Debian based distros
+
+* Install latest .deb file from [Releases](https://github.com/antroids/dbus-ws-proxy/releases/latest)
+
+### Others
+
+TBD
 
 ## License
 
